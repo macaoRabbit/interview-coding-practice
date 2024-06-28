@@ -8,7 +8,6 @@ public class Anagrams {
         String a = "I am a boy";
         String b = "boy a am I";
         System.out.println(a + "----" + b + " is anagrams? " + isAnagram(a, b));
-        a = "I am a boy";
         b = "I boy a am I";
         System.out.println(a + "----" + b + " is anagrams? " + isAnagram(a, b));
     }
